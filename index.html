@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cylinder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+
+    <audio id="myAudio" src="funky_49sec-187355.mp3" loop></audio>
+
+    <audio id="breakAudio" src="glass-hit-192119.mp3"></audio>
+
+    <div id="text" style="display: none">
+      <h6>Double click on the cylinder for the breaking experience</h6>
+    </div>
+
+    <button id="play">Start</button>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.164.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.164.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

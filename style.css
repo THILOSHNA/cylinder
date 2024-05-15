@@ -1,0 +1,37 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+#text {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  color: rgb(247, 227, 227);
+  border-radius: 5px;
+  transition: transform 200ms;
+}
+
+#play {
+  max-height: 100%;
+  max-width: 100%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  background: #c19b31;
+  color: #383b3a;
+  border-radius: 5px;
+  transition: transform 200ms;
+}
+
+#play:hover {
+  background: #c19b31;
+}
